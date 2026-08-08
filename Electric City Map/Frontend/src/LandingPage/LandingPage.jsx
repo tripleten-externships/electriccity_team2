@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import "./LandingPage.css";
 import aquariumVideo from '../assets/aquarium-scene.mp4'; 
 import logo from "../assets/logo.svg";
+import startBtn from "../assets/start-btn.svg";
 
 export default function LandingPage () {
     return (
@@ -13,7 +14,7 @@ export default function LandingPage () {
 
      <header className="landing-content">
         <img src={logo} alt="Map Explorer Logo" className="main-title-img" />
-        <button type="button" className="start-btn">Start</button>
+        <button type="button" className="start-btn"><img src={startBtn} alt="Start button" className="start-btn-img"/> </button>
      </header>
 
      <footer className="landing-footer">Electric City Aquarium and Reptiles Den</footer>
