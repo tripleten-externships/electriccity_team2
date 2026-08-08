@@ -13,7 +13,7 @@ export default function LandingPage () {
         </video>
 
      <header className="landing-content">
-        <img src={logo} alt="Map Explorer Logo" className="main-title-img" />
+        <img src={logo} alt="Map Explorer Logo" className="main-title-img" /> {/* logo jumps slightly */}
         <button type="button" className="start-btn"><img src={startBtn} alt="Start button" className="start-btn-img"/> </button>
      </header>
 
