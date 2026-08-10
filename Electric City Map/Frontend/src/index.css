@@ -1,7 +1,41 @@
-#root {
-  width: 100vw;
-  height: 100vh;
+
+@font-face {
+  font-family: 'Lilita One';
+  src: url('./assets/fonts/LilitaOne-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inte_18pt-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Inter - Bold */
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter_24pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
+  background-color: rgb(0, 0, 46);
+}
+
+#root { 
+  width: 100vw; 
+  height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+  overflow: hidden; 
 }
