@@ -1,13 +1,13 @@
 export const animals = [
     {
-        id: ,
-        image: URL("./pan_tort.png"),
+        id: 1,
+        image: "./pan_tort.png",
         name: 'Pancake Tortoise (Malacochersus tornieri)',
         conservation_status: 'Critically Endangered',
         native_region: 'Southern Kenya and Northeastern Tanzania',
-        taxonomy_category: 'Reptile' ,
+        taxonomy_category: 'Reptile',
         threats: 'Poaching for the pet trade, habitat destruction, and illegal mining',
         fun_fact: 'There are fewer than 5,000 mature individuals in the world',
-        coordinates: ,
+        coordinates: { lat: -3.5, lng: 37.5 } ,
     },
 ]

@@ -4,11 +4,14 @@ import WorldMap from "./WorldMap/WorldMap";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
    <div className="app">
-    <WorldMap />
+    <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/map" element={<WorldMap />} />
+      </Routes>
     </div>
   )
 };
