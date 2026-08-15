@@ -12,5 +12,6 @@ export const animals = [
         threats: 'Poaching for the pet trade, habitat destruction, and illegal mining',
         fun_fact: 'There are fewer than 5,000 mature individuals in the world',
         coordinates: { x: 58, y: 60} ,
+        location_zone: 'Gator Alley',
     },
 ]
