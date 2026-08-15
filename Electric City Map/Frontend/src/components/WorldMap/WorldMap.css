@@ -1,0 +1,62 @@
+.map-page {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,46);
+    overflow: hidden;
+}
+
+.zoom-viewport {
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
+.zoom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map-wrapper{
+    position: relative;
+    width: 95vw;
+    max-width: 1500px;
+    height: auto;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.map-pin {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.pin-pulse {
+    width: 16px;
+    height: 16px;
+    background-color: #ff0000;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+.map-pin:active .pin-pulse {
+    transform: scale(1.2);
+    background-color: #cc0000;
+}
