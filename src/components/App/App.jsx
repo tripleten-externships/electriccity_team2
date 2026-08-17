@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     if (location.pathname === '/') return;
 
-    const timer = setTimeout (() => {
+    let timer = setTimeout (() => {
       navigate('/');
     }, 120000);
 
