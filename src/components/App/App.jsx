@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Routes, Route, useNavigate, useLocation } from 'react-router-dom';
 import LandingPage from '../../components/LandingPage/LandingPage';
 import WorldMap from '../../components/WorldMap/WorldMap';
