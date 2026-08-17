@@ -6,7 +6,7 @@ import App from './components/App/App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/electriccity_team2">
+    <BrowserRouter basename="/electriccity_team2/">
     <App />
     </BrowserRouter>
   </StrictMode>,
