@@ -3,6 +3,8 @@ import filterAllImg from '../../assets/images/filter_all.svg';
 import filterSharkImg from '../../assets/images/filter_shark.svg';
 import filterTouchImg from '../../assets/images/filter_touch.svg';
 import filterGatorImg from '../../assets/images/filter_gator.svg';
+import filterSnakeImg from '../../assets/images/filter_snake.svg';
+import filterTurtleImg from '../../assets/images/filter_turtle.svg';
 import closeBtn from '../../assets/images/close_btn.svg';
 import animalSelectionLabel from '../../assets/images/animal_select.svg'
 import pinFrame from '../../assets/images/pin.svg';
@@ -17,7 +19,9 @@ const mapFilters = [
   { id: 'all', label: 'All', value: 'All', image: filterAllImg },
   { id: 'shark', label: 'Shark Reef', value: 'Shark Reef', image: filterSharkImg },
   { id: 'touch', label: 'Touch Tank', value: 'Touch Tank', image: filterTouchImg },
-  { id: 'gator', label: 'Gator Alley', value: 'Gator Alley', image: filterGatorImg }
+  { id: 'gator', label: 'Gator Alley', value: 'Gator Alley', image: filterGatorImg },
+  { id: 'snake', label: 'Snake Den', value: 'Snake Den', image: filterSnakeImg },
+  {id: 'turtle', label: 'Turtle Trail', value: 'Turtle Trail', image: filterTurtleImg }
 ];
 
 
